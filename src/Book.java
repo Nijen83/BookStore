@@ -28,10 +28,4 @@ public class Book {
         return price;
     }
 
-    public void printBook(){
-        System.out.println("Book ID : " + bookId);
-        System.out.println("Book title : " + title);
-        System.out.println("Book author : " + author);
-        System.out.println("Book price : € " + price);
-    }
 }
