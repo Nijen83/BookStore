@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Customer {
 
     int customerId;
@@ -5,6 +8,7 @@ public class Customer {
     String lastName;
     String email;
     int phone;
+    List<Cart> carts;
 
 
     public Customer(int customerId, String firstName, String lastName, String email, int phone) {
@@ -13,6 +17,15 @@ public class Customer {
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
+        carts = new ArrayList<>();
+    }
+
+    public List<Cart> getCarts() {
+        return carts;
+    }
+
+    public void setCarts(List<Cart> carts) {
+        this.carts = carts;
     }
 
     public int getCustomerId() {
