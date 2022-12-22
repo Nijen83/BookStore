@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Customer {
 
     int customerId;
@@ -5,6 +8,7 @@ public class Customer {
     String lastName;
     String email;
     int phone;
+    Cart cart;
 
 
     public Customer(int customerId, String firstName, String lastName, String email, int phone) {
@@ -13,7 +17,9 @@ public class Customer {
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
+        cart = null;
     }
+
 
     public int getCustomerId() {
         return customerId;

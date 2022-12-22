@@ -2,12 +2,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
-    int orderId;
-    List<Book> listOfItems;
+    private int orderId;
+    private List<Book> listOfItems;
 
     public Cart(int orderId){
         this.orderId = orderId;
         listOfItems = new ArrayList<>();
+    }
+
+    public List<Book> getListOfItems() {
+        return listOfItems;
     }
 
     public void add(Book book){
@@ -20,6 +24,7 @@ public class Cart {
 
     public void displayCart(){
         System.out.println("--- Order list of items ---");
+        System.out.println("Order ID: "+orderId);
         for(Book book : listOfItems){
             book.printBook();
         }
