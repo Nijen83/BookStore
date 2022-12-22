@@ -30,12 +30,12 @@ public class Customer {
         LastName = lastName;
     }
 
-    public String getEmail() {
-        return Email;
+    public String getEmaill() {
+        return Emaill;
     }
 
-    public void setEmail(String email) {
-        Email = email;
+    public void setEmaill(String emaill) {
+        Emaill = emaill;
     }
 
     public int getPhone() {
