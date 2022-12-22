@@ -3,7 +3,7 @@ public class Customer {
     int CustomerId;
     String FirstName;
     String LastName;
-    String Email;
+    String Emaill;
     int Phone;
 
     public int getCustomerId() {
