@@ -8,7 +8,7 @@ public class Customer {
     String lastName;
     String email;
     int phone;
-    List<Cart> carts;
+    Cart cart;
 
 
     public Customer(int customerId, String firstName, String lastName, String email, int phone) {
@@ -17,16 +17,9 @@ public class Customer {
         this.lastName = lastName;
         this.email = email;
         this.phone = phone;
-        carts = new ArrayList<>();
+        cart = null;
     }
 
-    public List<Cart> getCarts() {
-        return carts;
-    }
-
-    public void setCarts(List<Cart> carts) {
-        this.carts = carts;
-    }
 
     public int getCustomerId() {
         return customerId;
