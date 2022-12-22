@@ -1,48 +1,48 @@
 public class Customer {
 
-    int CustomerId;
-    String FirstName;
-    String LastName;
-    String Emaill;
-    int Phone;
+    int customerId;
+    String firstName;
+    String lastName;
+    String email;
+    int phone;
 
     public int getCustomerId() {
-        return CustomerId;
+        return customerId;
     }
 
     public void setCustomerId(int customerId) {
-        CustomerId = customerId;
+        this.customerId = customerId;
     }
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
-        FirstName = firstName;
+        this.firstName = firstName;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
     public void setLastName(String lastName) {
-        LastName = lastName;
+        this.lastName = lastName;
     }
 
-    public String getEmaill() {
-        return Emaill;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmaill(String emaill) {
-        Emaill = emaill;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public int getPhone() {
-        return Phone;
+        return phone;
     }
 
     public void setPhone(int phone) {
-        Phone = phone;
+        this.phone = phone;
     }
 }
