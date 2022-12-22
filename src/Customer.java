@@ -54,4 +54,9 @@ public class Customer {
     public void setPhone(int phone) {
         this.phone = phone;
     }
+
+    @Override
+    public String toString() {
+        return "--- Customer Info --- \nFirst name: "+firstName+"\nLast name: "+lastName+"\nPhone number: "+phone+"\nE-mail: "+email;
+    }
 }
