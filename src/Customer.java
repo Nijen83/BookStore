@@ -3,6 +3,8 @@ import java.util.List;
 
 public class Customer {
 
+    //comment
+
     int customerId;
     String firstName;
     String lastName;
